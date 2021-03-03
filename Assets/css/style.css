@@ -13,7 +13,9 @@ body {
 .header {padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;}
+    color: #ffffff;
+    border: 3px black solid;
+}
 
 .header nav {
     padding-top: 15px;
@@ -24,7 +26,7 @@ body {
 }
 
 .header h1 {
-    background-color: white;
+    background-color:yellow;
 }
 .header nav ul {
     list-style-type: none;
@@ -53,15 +55,14 @@ p {
     opacity: 80%;
 }
 
-.hero-text p {
-	font-weight: bold;
-    font-size: large;
-    color: red;
-    align-self: center;
-}
 
-.hero-text h1 {
+.hero h1 {
 	font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color:darkred;
+    text-align: center;
+    padding: 50px;
 }
 
 .content {
@@ -87,7 +88,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: white;
     color:black;
-    
+    border: 3px black solid;
 }
 .about-me h2 {
     margin-bottom: 20px;
@@ -96,3 +97,69 @@ p {
 .about-me img {
     max-height: 200px;
 }
+.major {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color:black;
+    border: 3px black solid;
+}
+.major h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.major img {
+    max-height: 200px;
+}
+
+
+  
+.justify-center {
+    justify-content: center;
+  }
+  
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+
+
+.flex-container img  {
+    max-height: 100px;
+}
+
+.flex-container img:hover{
+    opacity: 125%;
+}
+
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+    border: 1px black solid;
+
+  }
+
+
+
+
+.flex-item-right {
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+    background-image: url(Assets/images/comingsoon.png);
+  }
+  
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
