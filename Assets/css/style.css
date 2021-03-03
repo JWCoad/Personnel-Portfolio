@@ -1,0 +1,98 @@
+
+
+
+
+
+body {
+    background-color: lightblue;
+}
+
+
+/* Header rules */
+
+.header {padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header h1 {
+    background-color: white;
+}
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+}
+
+.hero-text p {
+	font-weight: bold;
+    font-size: large;
+    color: red;
+    align-self: center;
+}
+
+.hero-text h1 {
+	font-family: Raleway, sans-serif;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color:black;
+    
+}
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.about-me img {
+    max-height: 200px;
+}
