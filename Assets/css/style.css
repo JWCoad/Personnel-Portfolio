@@ -10,7 +10,8 @@ body {
 
 /* Header rules */
 
-.header {padding: 20px;
+.header {
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -26,8 +27,9 @@ body {
 }
 
 .header h1 {
-    background-color:yellow;
+    text-align:center ;
 }
+    
 .header nav ul {
     list-style-type: none;
 }
@@ -68,7 +70,7 @@ p {
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    
 }
 
 .float-left {
@@ -79,6 +81,11 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
 }
 
 .about-me {
@@ -127,6 +134,8 @@ p {
     font-size: 30px;
     text-align: center;
     flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
   }
 
 
@@ -144,6 +153,7 @@ p {
     padding: 10px;
     flex: 50%;
     border: 1px black solid;
+    max-width: 200px;
 
   }
 
@@ -163,3 +173,72 @@ p {
       flex-direction: column;
     }
   }
+
+
+  
+a:visited {
+    background-color: cyan;
+  }
+  
+a:hover {
+    background-color: lightgreen;
+  }
+  
+a:active {
+    background-color: hotpink;
+  } 
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  } 
+
+.contact {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color:black;
+    border: 3px black solid;
+
+}  
+
+.contact h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact a {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px black solid;
+    text-align: center;
+    margin: 10px;
+}
+.contact p{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
