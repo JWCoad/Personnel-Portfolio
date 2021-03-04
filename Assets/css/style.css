@@ -8,7 +8,7 @@ body {
 }
 
 
-/* Header rules */
+/* Header Styling */
 
 .header {
     padding: 20px;
@@ -47,7 +47,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Sets Style for banner image */
 .hero {height: 400px;
     width: 100%;
     margin-bottom: 25px;
@@ -66,28 +66,28 @@ p {
     text-align: center;
     padding: 50px;
 }
-
+/* FStyle condtions */
 .content {
     width: 75%;
     display: inline-block;
     
 }
-
+/* Style condtions */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Style condtions */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Style condtions */
 .center {
     margin: auto;
     width: 50%;
 }
-
+/* Styling for about me section */
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,6 +104,7 @@ p {
 .about-me img {
     max-height: 200px;
 }
+/* Styling for major project section */
 .major {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,7 +128,7 @@ p {
     justify-content: center;
   }
   
-
+/* Styling for containers */
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -175,7 +176,7 @@ p {
   }
 
 
-  
+  /* Hover styling for links */
 a:visited {
     background-color: cyan;
   }
@@ -187,13 +188,13 @@ a:hover {
 a:active {
     background-color: hotpink;
   } 
-
+ /* Hover styling for links */
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
   }
-  
+/* Hover styling for links */
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -211,7 +212,7 @@ a:active {
 .tooltip:hover .tooltiptext {
     visibility: visible;
   } 
-
+/* Styling for contact section */
 .contact {
     margin: auto;
     width: 50%;
@@ -241,4 +242,16 @@ a:active {
     margin: 10px;
     padding: 10px;
     text-align: center;
+}
+
+/* Sets padding, font andf text for footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
 }
