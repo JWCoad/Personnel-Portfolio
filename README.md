@@ -2,9 +2,9 @@
 Personnel Portfolio Homework
 
 
-### Live at [Git Pages]()
+### Live at [Git Pages](https://jwcoad.github.io/Personnel-Portfolio/)
 ### Repo at [Github](https://github.com/JWCoad/Personnel-Portfolio)
-### Screenshot of page [Screenshot]()
+### Screenshot of page ![Image of page](https://github.com/JWCoad/Personnel-Portfolio/blob/main/Assets/images/screenshot.JPG)
 
 
 ## Resources used:
